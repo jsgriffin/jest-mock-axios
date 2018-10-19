@@ -18,6 +18,7 @@ type AxiosFn = (...args:any[]) => SpyFn;
 type AxiosAPI = {
     // mocking Axios methods
     get?:SpyFn;
+    patch?:SpyFn;
     post?:SpyFn;
     put?:SpyFn;
     delete?:SpyFn;

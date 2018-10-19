@@ -28,6 +28,7 @@ const MockAxios:AxiosMockType = <AxiosMockType>jest.fn(_newReq);
 // mocking Axios methods
 MockAxios.get = jest.fn(_newReq);
 MockAxios.post = jest.fn(_newReq);
+MockAxios.patch = jest.fn(_newReq);
 MockAxios.put = jest.fn(_newReq);
 MockAxios.delete = jest.fn(_newReq);
 MockAxios.create = jest.fn(() => MockAxios);

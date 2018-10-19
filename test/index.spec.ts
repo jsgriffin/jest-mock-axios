@@ -20,6 +20,9 @@ describe('MockAxios', () => {
     it("`post` should return a promise", () => {
         expect(MockAxios.post()).toEqual(new SyncPromise());
     });
+    it("`patch` should return a promise", () => {
+        expect(MockAxios.patch()).toEqual(new SyncPromise());
+    });
     it("`delete` should return a promise", () => {
         expect(MockAxios.delete()).toEqual(new SyncPromise());
     });
