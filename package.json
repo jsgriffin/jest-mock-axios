@@ -7,7 +7,8 @@
   "scripts": {
     "build": "webpack -p",
     "deploy2npm": "npm run build && npm publish",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
