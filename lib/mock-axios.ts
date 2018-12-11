@@ -125,6 +125,7 @@ MockAxios.reset = () => {
 
   // resets all information stored in the mockFn.mock.calls and mockFn.mock.instances arrays
   MockAxios.get.mockClear();
+  MockAxios.patch.mockClear();
   MockAxios.post.mockClear();
   MockAxios.put.mockClear();
   MockAxios.delete.mockClear();
